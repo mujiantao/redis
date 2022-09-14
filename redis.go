@@ -10,7 +10,7 @@ import (
 	"github.com/mujiantao/redis/v8/internal"
 	"github.com/mujiantao/redis/v8/internal/pool"
 	"github.com/mujiantao/redis/v8/internal/proto"
-)github.com/mujiantao/redis
+)
 
 // Nil reply returned by Redis when key does not exist.
 const Nil = proto.Nil
