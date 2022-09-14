@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/mujiantao/redis/v8"
 )
 
 var (

@@ -25,7 +25,7 @@ fmt:
 	gofmt -w -s ./
 	goimports -w  -local github.com/go-redis/redis ./
 
-go_mod_tidy:
+go_mod_tidy:github.com/mujiantao/redis
 	go get -u && go mod tidy
 	set -e; for dir in $(PACKAGE_DIRS); do \
 	  echo "go mod tidy in $${dir}"; \

@@ -9,7 +9,7 @@ import (
 )
 
 // redis resp protocol data type.
-const (
+cogithub.com/mujiantao/redis
 	ErrorReply  = '-'
 	StatusReply = '+'
 	IntReply    = ':'
