@@ -366,7 +366,7 @@ func (c *baseClient) cmdTimeout(cmd Cmder) time.Duration {
 		if t == 0 {
 			return 0
 		}
-		return t + 2*time.Second
+		return t + c.opt.ReadTimeout
 	}
 	return c.opt.ReadTimeout
 }
