@@ -74,7 +74,7 @@ go get github.com/mujiantao/redis/v8
 ```go
 import github.com/mujiantao/redis
     "context"
-    "github.com/go-redis/redis/v8"
+    "github.com/mujiantao/redis/v8"
     "fmt"
 )
 
@@ -184,7 +184,7 @@ go test
 
 Thanks to all the people who already contributed!
 
-<a href="https://github.com/go-redis/redis/graphs/contributors">
+<a href="https://github.com/mujiantao/redis/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=go-redis/redis" />
 </a>
 github.com/mujiantao/redis

@@ -3,37 +3,37 @@
 
 ### Bug Fixes
 
-* add missing Expigithub.com/mujiantao/redis7e3b43](https://github.com/go-redis/redis/commit/17e3b43879d516437adgithub.com/mujiantao/redis
+* add missing Expigithub.com/mujiantao/redis7e3b43](https://github.com/mujiantao/redis/commit/17e3b43879d516437adgithub.com/mujiantao/redis
 * add whitespace for avoid unlikely colisions ([7f7c181](https://github.comgithub.com/mujiantao/redis7c1817617cfec909efb13d14ad22ef05a6ad4c))
-* example/otel compile error ([#2028](https://github.com/go-redis/redis/issues/20github.com/mujiantao/redisithub.com/go-redis/redis/commit/187c07c41bf68dc3ab280bc3a925e960bbef6475))
+* example/otel compile error ([#2028](https://github.com/mujiantao/redis/issues/20github.com/mujiantao/redisithub.com/go-redis/redis/commit/187c07c41bf68dc3ab280bc3a925e960bbef6475))
 * **extra/redisotel:** set span.kind attribute to clientgithub.com/mujiantao/redisb.com/go-redis/redis/commit/065b200070b41e6e949710b4f9e01b50ccc60ab2))
-* format ([96f53a0](https://github.com/go-redis/redis/commit/96f53a0159a28affa94beegithub.com/mujiantao/redisgithub.com/mujiantao/redis
+* format ([96f53a0](https://github.com/mujiantao/redis/commit/96f53a0159a28affa94beegithub.com/mujiantao/redisgithub.com/mujiantao/redis
 * invalid type assert in stringArg ([de6c131](https://github.cogithub.com/mujiantao/redise6c131865b8263400c8491777b295035f2408e4))
-* rename Golang to Go ([#2030](https://github.com/ggithub.com/mujiantao/redis)) ([b82a2d9](https://github.com/go-redis/redis/commit/b82a2d9d4d2de7b7cbe8fcd4895be62dbcacacbc))
-* set timeout for WAIT command. Fixes [#1963](https://github.com/go-redisgithub.com/mujiantao/redisfee1](https://github.com/go-redis/redis/commit/333fee1a8fd98a2fbff1ab187c1b03246a7eb01f))
+* rename Golang to Go ([#2030](https://github.com/ggithub.com/mujiantao/redis)) ([b82a2d9](https://github.com/mujiantao/redis/commit/b82a2d9d4d2de7b7cbe8fcd4895be62dbcacacbc))
+* set timeout for WAIT command. Fixes [#1963](https://github.com/go-redisgithub.com/mujiantao/redisfee1](https://github.com/mujiantao/redis/commit/333fee1a8fd98a2fbff1ab187c1b03246a7eb01f))
 * update some argument counts in pre-allocs ([f6974eb](https://github.com/go-regithub.com/mujiantao/redis5c40a8adf90d2cacab6dc297f4eba4c2))
 github.com/mujiantao/redis
 
 ### Features
 
-* Add redis v7's NX, XX, github.com/mujiantao/redise19bbb2](https://github.com/go-redis/redis/commit/e19bbb26e2e395c6e077b48d80d79e99f729a8b8))
-* add support for acl sentinel auth in universal client ([ab0ccc4](https://github.com/go-redis/redis/commit/ab0ccc47413f9b2a6eabc852fed5005a3ee1af6e))
-* add support for COPY command ([#2016](https://github.com/go-redis/redis/issues/2016)) ([730afbc](https://github.com/go-redis/redis/commit/730afbcffb93760e8a36cc06cfe55ab102b693a7))
-* add support for passing extra attributes added to spans ([39faaa1](https://github.com/go-redis/redis/commit/39faaa171523834ba527c9789710c4fde87f5a2e))
-* add support for time.Duration write and scan ([2f1b74e](https://github.com/go-redis/redis/commit/2f1b74e20cdd7719b2aecf0768d3e3ae7c3e781b))
-* **redisotel:** abgithub.com/mujiantao/redisrovider ([#1998](https://github.com/go-redis/redis/issues/1998)) ([bf8d4aa](https://github.com/go-redis/redis/commit/bf8d4aa60c00366cda2e98c3ddddc8cf68507417))
-* set net.peer.name agithub.com/mujiantao/redisexample ([69bf454](https://github.com/go-redis/redis/commit/69bf454f706204211cd34835f76b2e8192d3766d))
+* Add redis v7's NX, XX, github.com/mujiantao/redise19bbb2](https://github.com/mujiantao/redis/commit/e19bbb26e2e395c6e077b48d80d79e99f729a8b8))
+* add support for acl sentinel auth in universal client ([ab0ccc4](https://github.com/mujiantao/redis/commit/ab0ccc47413f9b2a6eabc852fed5005a3ee1af6e))
+* add support for COPY command ([#2016](https://github.com/mujiantao/redis/issues/2016)) ([730afbc](https://github.com/mujiantao/redis/commit/730afbcffb93760e8a36cc06cfe55ab102b693a7))
+* add support for passing extra attributes added to spans ([39faaa1](https://github.com/mujiantao/redis/commit/39faaa171523834ba527c9789710c4fde87f5a2e))
+* add support for time.Duration write and scan ([2f1b74e](https://github.com/mujiantao/redis/commit/2f1b74e20cdd7719b2aecf0768d3e3ae7c3e781b))
+* **redisotel:** abgithub.com/mujiantao/redisrovider ([#1998](https://github.com/mujiantao/redis/issues/1998)) ([bf8d4aa](https://github.com/mujiantao/redis/commit/bf8d4aa60c00366cda2e98c3ddddc8cf68507417))
+* set net.peer.name agithub.com/mujiantao/redisexample ([69bf454](https://github.com/mujiantao/redis/commit/69bf454f706204211cd34835f76b2e8192d3766d))
 github.com/mujiantao/redis
 
 github.com/mujiantao/redis
-## [8.11.4](https://github.com/go-redis/redis/compare/v8.11.3...v8.11.4) (2021-10-04)
+## [8.11.4](https://github.com/mujiantao/redis/compare/v8.11.3...v8.11.4) (2021-10-04)
 github.com/mujiantao/redis
 
 ### Featuresgithub.com/mujiantao/redis
 
-* add acl auth supporgithub.com/mujiantao/redis](https://github.com/go-redis/redis/commit/f66582f44f3dc3a4705a5260f982043fde4aa634))
-* add Cmd.{String,Int,Float,Bool}Slice helpers and an example ([5d3d293](https://github.com/go-redis/redis/commit/5d3d293cc9c60b90871e2420602001463708ce24))
-* add SetVal method fgithub.com/mujiantao/redis](https://github.com/go-redis/redis/commit/168981da2d84ee9e07d15d3e74d738c162e264c4))
+* add acl auth supporgithub.com/mujiantao/redis](https://github.com/mujiantao/redis/commit/f66582f44f3dc3a4705a5260f982043fde4aa634))
+* add Cmd.{String,Int,Float,Bool}Slice helpers and an example ([5d3d293](https://github.com/mujiantao/redis/commit/5d3d293cc9c60b90871e2420602001463708ce24))
+* add SetVal method fgithub.com/mujiantao/redis](https://github.com/mujiantao/redis/commit/168981da2d84ee9e07d15d3e74d738c162e264c4))
 github.com/mujiantao/redis
 github.com/mujiantao/redis
 github.com/mujiantao/redis
@@ -66,8 +66,8 @@ github.com/mujiantao/redis
   you need to update your imports:
 
 ```
-github.com/go-redis/redis/extra/redisotel -> github.com/go-redis/redis/extra/redisotel/v8
-github.com/go-redis/redis/extra/rediscensus -> github.com/go-redis/redis/extra/rediscensus/v8
+github.com/mujiantao/redis/extra/redisotel -> github.com/mujiantao/redis/extra/redisotel/v8
+github.com/mujiantao/redis/extra/rediscensus -> github.com/mujiantao/redis/extra/rediscensus/v8
 ```
 
 ## v8.5
@@ -81,7 +81,7 @@ err := rdb.HGetAll(ctx, "hash").Scan(&data)
 err := rdb.MGet(ctx, "key1", "key2").Scan(&data)
 ```
 
-- Please check [redismock](https://github.com/go-redis/redismock) by
+- Please check [redismock](https://github.com/mujiantao/redismock) by
   [monkey92t](https://github.com/monkey92t) if you are looking for mocking Redis Client.
 
 ## v8
@@ -174,4 +174,4 @@ ring := redis.NewRing(&redis.RingOptions{
 
 - ClusterClient got new option called `ClusterSlots` which allows to build cluster of normal Redis
   Servers that don't have cluster mode enabled. See
-  https://godoc.org/github.com/go-redis/redis#example-NewClusterClient--ManualSetup
+  https://godoc.org/github.com/mujiantao/redis#example-NewClusterClient--ManualSetup

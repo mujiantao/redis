@@ -23,7 +23,7 @@ testdata/redis/src/redis-server: testdata/redis
 
 fmt:
 	gofmt -w -s ./
-	goimports -w  -local github.com/go-redis/redis ./
+	goimports -w  -local github.com/mujiantao/redis ./
 
 go_mod_tidy:github.com/mujiantao/redis
 	go get -u && go mod tidy
