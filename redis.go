@@ -312,8 +312,12 @@ func (c *baseClient) process(ctx context.Context, cmd Cmder) error {
 	var lastErr error
 	for attempt := 0; attempt <= c.opt.MaxRetries; attempt++ {
 		attempt := attempt
-
+		start := time.Now().UnixMilli()
 		retry, err := c._process(ctx, cmd, attempt)
+		coast := time.Now().UnixMilli() - start
+		if coast > 8000 {
+			fmt.Println("hack1.5", retry, err)
+		}
 		if err == nil || !retry {
 			return err
 		}
